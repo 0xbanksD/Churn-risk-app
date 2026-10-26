@@ -11,12 +11,11 @@ from features import prepare_features
 
 st.set_page_config(page_title="Churn Risk Predictor")
 
-MODEL_PATH = Path("C:/Users/Nelson/Documents/GitHub/churn-app/model/churn_model.joblib").parent / "model" / "churn_model.joblib"
-
+MODEL_PATH = Path(__file__).parent / "model" / "churn_model.joblib"
 
 @st.cache_resource
 def load_model():
-    return joblib.load("C:/Users/Nelson/Documents/GitHub/churn-app/model/churn_model.joblib")
+    return joblib.load(MODEL_PATH)
 
 
 pipe = load_model()
