@@ -2,9 +2,11 @@
 
 Predicting which telecom/subscription customers are likely to leave, explaining why, and putting the model into a working app, with a time-aware evaluation, a drift-monitoring check, and a survival analysis of *when* customers churn.
 
-**Live demo:** TODO-paste-your-Streamlit-app-link-here
+**Live demo:** https://churn-risk-app-dao.streamlit.app/
 
-![App screenshot](images/app.png)
+![App screenshot](<img width="1280" height="698" alt="images-app png" src="https://github.com/user-attachments/assets/ce36ea1c-4c2f-4bc2-831e-aa0001566a7a" />
+) <img width="1280" height="699" alt="images2-app png" src="https://github.com/user-attachments/assets/204d79f1-a069-4bec-8b08-69c89eb33834" />
+
 
 ## The problem
 
