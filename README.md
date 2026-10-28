@@ -52,15 +52,15 @@ Kaplan-Meier curves show month-to-month customers losing about 30% within 12 mon
 ## Business recommendations
 
 Customers in the test set were scored by predicted churn probability and split into three tiers using thresholds of 0.6 and 0.3:
-Risk Tier               CustomersActual                     Churn Rate                                Suggested Action
-High Risk               473 (33.6%)                         55.8%                                     Proactive retention call + targeted discount or contract upgrade offer
+| Risk Tier | CustomersActual | Churn Rate | Suggested Action |
+|---|---|---|---|
+| High Risk |473 (33.6%)  | 55.8% |  Proactive retention call + targeted discount or contract upgrade offer |
+| Medium Risk  |325 (23.1%)  | 25.2%   | Low-cost automated nudge (email/SMS, loyalty perk, feature highlight)|
+| Low Risk   |611 (43.4%)  |  4.6%   |  No action — monitor only |
 
-Medium Risk             325 (23.1%)                         25.2%                                     Low-cost automated nudge (email/SMS, loyalty perk, feature highlight)
 
-Low Risk                611 (43.4%)                         4.6%                                      No action — monitor only
-
-
-** The separation between tiers is strong: a High Risk customer is over 12 times more likely to churn than a Low Risk customer. This supports concentrating retention spend on the 33.6% of customers flagged High Risk, where the expected value of intervention is highest, while leaving the 43.4% flagged Low Risk untouched to avoid wasted spend on customers who were likely to stay regardless. The expected value of any intervention tier can be estimated as: (tier size) × (tier churn rate) × (customer lifetime value saved) − (tier size) × (intervention cost per customer), a calculation that requires lifetime-value and intervention-cost figures not present in this dataset, but that the business can apply directly using the tier sizes and churn rates above.**
+                                                                    
+The separation between tiers is strong: a High Risk customer is over 12 times more likely to churn than a Low Risk customer. This supports concentrating retention spend on the 33.6% of customers flagged High Risk, where the expected value of intervention is highest, while leaving the 43.4% flagged Low Risk untouched to avoid wasted spend on customers who were likely to stay regardless. The expected value of any intervention tier can be estimated as: (tier size) × (tier churn rate) × (customer lifetime value saved) − (tier size) × (intervention cost per customer), a calculation that requires lifetime-value and intervention-cost figures not present in this dataset, but that the business can apply directly using the tier sizes and churn rates above.**
 
 ## Limitations
 
