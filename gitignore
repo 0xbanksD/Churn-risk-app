@@ -1,0 +1,17 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets and OS files
+.env
+.DS_Store
+Thumbs.db
+
+# Dataset (public on Kaggle; linked in README instead of re-uploaded)
+Project_DS/WA_Fn-UseC_-Telco-Customer-Churn.csv
