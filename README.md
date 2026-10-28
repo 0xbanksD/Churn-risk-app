@@ -4,8 +4,8 @@ Predicting which telecom/subscription customers are likely to leave, explaining 
 
 **Live demo:** https://churn-risk-app-dao.streamlit.app/
 
-![App screenshot](<img width="1280" height="698" alt="images-app png" src="https://github.com/user-attachments/assets/ce36ea1c-4c2f-4bc2-831e-aa0001566a7a" />
-)
+![App screenshot] <img width="1280" height="698" alt="images-app png" src="https://github.com/user-attachments/assets/2d40aa8a-923a-4486-b337-2a82ff569b61" />
+
 
 
 ## The problem
