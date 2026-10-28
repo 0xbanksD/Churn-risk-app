@@ -1,5 +1,0 @@
-I built a Streamlit app that takes a customer's account, service and demographic details and returns a churn risk score, a risk tier (High, Medium or Low) and a recommended action. 
-The model is the final Logistic Regression, saved with its preprocessing as a single scikit-learn Pipeline so the app and the notebook give identical scores,
-which I verified on a real customer from the dataset. The app is deployed on Streamlit Community Cloud and tested on both a computer and a phone. It cannot tell a real business how well 
-the model would work on future customers, because the Telco data is a single snapshot. 
-Its scores come from a class-weighted model, so they rank customers well but are not exact probabilities. Scores for brand-new customers are especially uncertain.
